@@ -1,0 +1,59 @@
+.dashboard-container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  float: right;
+  cursor: pointer;
+}
+
+.employee-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.employee-form input {
+  padding: 10px;
+  flex: 1;
+  min-width: 180px;
+}
+
+.employee-form button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.employee-table th {
+  background: #f4f4f4;
+}

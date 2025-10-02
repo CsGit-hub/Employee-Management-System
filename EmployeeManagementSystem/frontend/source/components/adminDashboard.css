@@ -1,0 +1,31 @@
+.admin-dashboard {
+  padding: 20px;
+}
+
+.admin-dashboard h2 {
+  margin-bottom: 15px;
+}
+
+.employee-list {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-list th,
+.employee-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.employee-list th {
+  background-color: #f0f0f0;
+}
